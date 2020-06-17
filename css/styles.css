@@ -12,14 +12,22 @@
  */
 
  /* CUSTOM CSS */
+.btn-margin {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
  .navbar-brand img{
    height: 50px;
    width: 50px;
  }
 
  .skills-img {
-   height: 50px;
+   height: 100px;
    width: auto;
+   margin-bottom: 30px;
  }
 
 
