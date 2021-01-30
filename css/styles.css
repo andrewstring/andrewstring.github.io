@@ -19,6 +19,15 @@
   margin-bottom: 20px;
 }
 
+.btn {
+  transition: transform 1s !important;
+}
+.btn:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
  .navbar-brand img{
    height: 50px;
    width: 50px;
@@ -30,6 +39,14 @@
    margin-bottom: 30px;
  }
 
+ .skill-row > div {
+   transition: transform 1s;
+ }
+ .skill-row > div:hover {
+   -ms-transform: scale(1.2);
+   -webkit-transform: scale(1.2);
+   transform: scale(1.2);
+ }
 
 
 
@@ -6118,7 +6135,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: #050309 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
