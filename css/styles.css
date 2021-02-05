@@ -54,6 +54,18 @@
    transform: scale(1.2);
  }
 
+ /* IDs */
+ #resources {
+   background-color: #050309 !important;
+ }
+ #footer {
+   background-color: #050309 !important;
+ }
+ #footer-content {
+   color: #fff !important;
+ }
+
+
 
 
 :root {
