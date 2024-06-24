@@ -1,0 +1,316 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/c26e015232.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="crosshair-cursor bg-gradient-to-r from-red-600 via-purple-600 to-blue-600">
+    <div>
+      <div class="grid lg:h-screen lg:grid-cols-2 md:grid-cols-1 gap-20 px-8 md:px-8 lg:px-34 2xl:px-96">
+        <div class="space-y-1 pt-12 font-mono">
+          <h1 class="text-white underline md:text-xl lg:text-3xl">
+            Andrew Stringfellow
+          </h1>
+          <h2 class="md:text-l text-white lg:text-2xl">
+            Software Engineer
+          </h2>
+          <div class="py-5 ml-10">
+            <table class="text-white table-auto text-3xl">
+              <tbody>
+                <tr>
+                  <!-- <td class="group px-3 text-center hover:grab-cursor">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <p class="text-xs invisible group-hover:visible">LinkedIn</p>
+                  </td> -->
+                  
+                  <td class="group px-3 text-center hover:grab-cursor">
+                    <a target="_blank" href="https://github.com/andrewstring">
+                      <i class="fa-brands fa-square-github"></i>
+                      <p class="text-xs invisible group-hover:visible">GitHub</p>
+                    </a>
+                  </td>
+                  <td class="group px-3 text-center hover:grab-cursor">
+                    <a target="_blank" href="https://gitlab.com/abreeze12345">
+                      <i class="fa-brands fa-square-gitlab"></i>
+                      <p class="text-xs invisible group-hover:visible">GitLab</p>
+                    </a>
+                  </td>
+                </tr>
+              </thead>
+            </table>
+          </div>
+          <p>
+            Cincinnati, Ohio based Software Engineer with skills spanning both front-end and back-end web application development. Current developing interests include native iOS application development and embedded software design
+          </p>
+          <p class="underline">Primary Skillset</p>
+          <ul class="list-disc pl-10">
+            <li>C++</li>
+            <li>CSS</li>
+            <li>Express</li>
+            <li>HTML</li>
+            <li>JavaScript</li>
+            <li>Linux</li>
+            <li>MongoDB</li>
+            <li>Node.js</li>
+            <li>Python</li>
+            <li>React</li>
+            <li>SQL</li>
+            <li>Swift</li>
+          </ul>
+          <div class="space-y-3 pl-5 pt-10 lg:block hidden">
+            <!-- <div>
+              <svg
+                class="inline h-6 w-6 pb-1"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="h-6 w-6"
+              >
+                <pat                  <td class="group px-3 text-center">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <p class="text-xs invisible group-hover:visible">LinkedIn</p>
+                  </td>h
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                />
+              </svg>
+              <h3 class="inline">First</h3>
+            </div> -->
+            <div id="education-link" class="hover:grab-cursor">
+              <svg
+                id="education-icon"
+                class="inline h-6 w-6 pb-1 active-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="h-6 w-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                />
+              </svg>
+              <a id="education-text" class="inline active-text"><h3 class="inline">Education</h3></a>
+            </div>
+            <div id="work-link" class="hover:grab-cursor">
+              <svg
+                id="work-icon"
+                class="inline h-6 w-6 pb-1"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="h-6 w-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                />
+              </svg>
+              <a id="work-text" class="inline"><h3 class="inline">Work Experience</h3></a>
+            </div>
+            <div id="project-link" class="hover:grab-cursor">
+              <svg
+                id="project-icon"
+                class="inline h-6 w-6 pb-1"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="h-6 w-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                />
+              </svg>
+              <a id="project-text" class="inline"><h3 class="inline">Projects</h3></a>
+            </div>
+          </div>
+        </div>
+        <div id="content-area" class="space-y-12 pt-14 overflow-auto font-sans hide-scrollbar pb-36">
+          <div class="space-y-8">
+            <div>
+              <h1 id="education-area" class="pb-8 text-white underline md:text-2xl lg:text-3xl">
+                Education
+              </h1>
+              <div class="text-lg">
+                <div class="grid grid-cols-2">
+                  <h2 class="font-bold">Master of Engineering</h2>
+                  <h2 class="text-right mr-10">May 2024</h2>
+                </div>
+                <h2>University of Cincinnati</h2>
+                <h3 class="mb-3">Major: Computer Science</h3>
+                <h3 class="underline">Notable Courses:</h3>
+                <ul class="list-disc pl-10 text-base">
+                  <li>Advanced Algorithms I</li>
+                  <li>Advanced Algorithms II</li>
+                  <li>Intelligent Data Analysis</li>
+                  <li>Cloud Computing</li>
+                  <li>Operating Systems</li>
+                  <li>Parallel Computing</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <div class="text-lg">
+                <div class="grid grid-cols-2">
+                  <h2 class="font-bold">Bachelor of Arts</h2>
+                  <h2 class="text-right mr-10">May 2021</h2>
+                </div>
+                <h2>University of Cincinnati</h2>
+                <h3 class="mb-3">Major: Communication, Minor: Computer Science</h3>
+                <h3 class="underline">Notable Courses:</h3>
+                <ul class="list-disc pl-10 text-base">
+                  <li>Introduction to C++</li>
+                  <li>Algorithms I</li>
+                  <li>Algorithms II</li>
+                  <li>System Engineering</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="space-y-8">
+            <div class="text-lg">
+              <h1 id="work-area" class="pb-8 text-white underline md:text-2xl lg:text-3xl">
+                Work Experience
+              </h1>
+              <h2 class="font-bold">Software Development Intern</h2>
+              <div class="grid grid-cols-2 mb-3">
+                <h2>Fives Machining</h2>
+                <h2 class="text-right mr-10">05/2023 - 09/2023</h2>
+              </div>
+              <h3 class="underline">Responsibilities:</h3>
+              <ul class="list-disc pl-10 text-base">
+                <li>Implemented fixes for machine code generation, resulting in more reliable and concise NC-Code</li>
+                <li>Reduced codebase by hundreds of lines by implementing modern syntax, specifically ternary operators and switch statements for state management and conditional logic</li>
+              </ul>
+            </div>
+            <div class="text-lg">
+              <h2 class="font-bold">System Administrator Intern</h2>
+              <div class="grid grid-cols-2 mb-3">
+                <h2>Epic Systems</h2>
+                <h2 class="text-right mr-10">05/2023 - 09/2023</h2>
+              </div>
+              <h3 class="underline">Responsibilities:</h3>
+              <ul class="list-disc pl-10 text-base">
+                <li>Provided support to hospitals to troubleshoot server issues and perform upgrades, allowing hospitals to reduce the number of in-house IT personnel</li>
+                <li>Utilized Epic’s proprietary hyperspace application to build 10+ report generation dashboards, providing clear and detailed visualizations of patient health data</li>
+              </ul>
+            </div>
+            <div class="text-lg">
+              <h2 class="font-bold">Software Development Intern</h2>
+              <div class="grid grid-cols-2 mb-3">
+                <h2>Ohio Department of Taxation</h2>
+                <h2 class="text-right mr-10">05/2023 - 09/2023</h2>
+              </div>
+              <h3 class="underline">Responsibilities:</h3>
+              <ul class="list-disc pl-10 text-base">
+                <li>Wrote numerous PowerShell scripts to automate file system tasks (file migration, naming conventions), saving hours of repeated commands</li>
+                <li>Utilized IBM Cognos to build 30+ report generation applications, enabling business department to run reports without technical knowledge of querying data</li>
+              </ul>
+            </div>
+          </div>
+          <div class="space-y-8">
+            <div class="text-lg">
+              <h1 id="project-area" class="pb-8 text-white underline md:text-2xl lg:text-3xl">
+                Projects 
+              </h1>
+              <video class="video-center py-10" width="350" controls>
+                <source src="../assets/test.mp4" type="video/mp4">
+              </video>
+              <div class="grid grid-cols-2">
+                <h2 class="font-bold">Gliding Thermal Tracker</h2>
+                <h2 class="text-right mr-10">01/2024 - 04/2024</h2>
+              </div>
+              <h3 class="underline">Description:</h3>
+              <ul class="list-disc pl-10 text-base">
+                <li>Utilizes iPhone GPS and Barometric hardware, detecting location and barometric altitude changes to determine where heat thermals are</li>
+                <li>Full MapKit data representation with markers displaying location and quality of heat thermals</li>
+                <li>Realtime data updates with MongoDB Change Streams, powered by Socket.io connections</li>
+              </ul>
+              <h3 class="underline">Technologies</h3>
+              <ul class="list-disc pl-10 text-base">
+                <li>CoreLocation, CoreMotion, Express.js, Heroku, JavaScript, MapKit, MongoDB, MDB Change Streams, Mongoose, Node.js, Socket.io, Swift, SwiftUI, UIKit</li>
+              </ul>
+              <h3 class="underline">Sources</h3>
+              <ul class="list-disc pl-10 text-base">
+                <li class="underline"><a href="https://github.com/andrewstring/Gliding-In-Flight-Updated" target="_blank">Client Repo</a></li>
+                <li class="underline"><a href="https://github.com/andrewstring/Gliding-In-Flight-Server.git" target="_blank">Server Repo</a></li>
+              </ul>
+            </div>
+            <div class="text-lg">
+              <!-- <video class="video-center py-10" width="350" controls> -->
+                <!-- <source src="../assets/test.mp4" type="video/mp4">
+              </video> -->
+              <div class="grid grid-cols-2">
+                <h2 class="font-bold">WhatsApp Clone</h2>
+                <h2 class="text-right mr-10">07/2023 - 10/2023</h2>
+              </div>
+              <h3 class="underline">Description:</h3>
+              <ul class="list-disc pl-10 text-base">
+                <li>Full stack implementation of WhatsApp</li>
+                <li>Handles scalable number of users concurrently, with shared database access</li>
+                <li>Realtime data sync with MongoDB in order to update chat when message is received</li>
+                <li>Handles file uploads to allow users to send attachments</li>
+              </ul>
+              <h3 class="underline">Technologies</h3>
+              <ul class="list-disc pl-10 text-base">
+                <li>Axios, CORS, CSS, Emoji Picker, Express, HTML, JavaScript, MongoDB Realm, Mongoose, Multer, Node.js, React, Speech Recognition, Styled Components</li>
+              </ul>
+              <h3 class="underline">Sources</h3>
+              <ul class="list-disc pl-10 text-base">
+                <li class="underline"><a href="https://github.com/andrewstring/WhatsApp-Clone-Frontend" target="_blank">Client Repo</a></li>
+                <li class="underline"><a href="https://github.com/andrewstring/WhatsApp-Clone-Backend" target="_blank">Server Repo</a></li>
+              </ul>
+            </div>
+            <div class="text-lg">
+              <!-- <video class="video-center py-10" width="350" controls> -->
+                <!-- <source src="../assets/test.mp4" type="video/mp4">
+              </video> -->
+              <div class="grid grid-cols-2">
+                <h2 class="font-bold">84.51° Sample Data Analysis Application</h2>
+                <h2 class="text-right mr-10">10/2022 - 12/2022</h2>
+              </div>
+              <h3 class="underline">Description:</h3>
+              <ul class="list-disc pl-10 text-base">
+                <li>Web application that queries and processes 2,500,000+ data entries with PySpark and NumPy </li>
+                <li>Databricks integration presents dashboard with data visualization and analysis of key factor such as household size, total household income, location, etc.</li>
+              </ul>
+              <h3 class="underline">Technologies</h3>
+              <ul class="list-disc pl-10 text-base">
+                <li>CSS, Databricks, Flask, Heroku, HTML, NumPy, PySpark, Python</li>
+              </ul>
+              <h3 class="underline">Sources</h3>
+              <ul class="list-disc pl-10 text-base">
+                <li class="underline"><a href="https://github.com/andrewstring/8451-sample-data" target="_blank">Repo</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row rounded-3xl translate-y-6 justify-center fixed w-full p-10 bottom-0 bg-blue-900/95">
+        <form class="space-x-4">
+          <input id="first-name" class="w-36 p-2 rounded-lg border-2 border-gray-800 focus:font-bold hover:font-bold" placeholder="First Name">
+          <input id="last-name" class="w-36 p-2 rounded-lg border-2 border-gray-800 focus:font-bold hover:font-bold" placeholder="Last Name">
+          <a id="submit" class="font-bold bg-blue-600 border-2 border-gray-800 hover:border-white hover:text-white p-3 rounded-full hover:grab-cursor">Contact Me!</a>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="./links.js"></script>
+  <script src="./main.js"></script>
+  <script src="./mailto.js"></script>
+</html>
